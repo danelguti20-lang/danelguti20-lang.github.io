@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unir clips</title>
+  <meta name="description" content="Unir clips: une tres clips verticales en un vídeo y súbelo programado a tu canal de YouTube.">
+  <style>
+    :root { --fondo: #f6f6f7; --tarjeta: #fff; --texto: #18181b; --suave: #5f5f68; --borde: #dcdce0; --acento: #d9231a; color-scheme: light dark; }
+    @media (prefers-color-scheme: dark) { :root { --fondo: #111113; --tarjeta: #1c1c1f; --texto: #f1f1f3; --suave: #a1a1aa; --borde: #34343a; --acento: #ff5a4f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+    nav { display: flex; flex-wrap: wrap; gap: 16px; justify-content: flex-end; font-size: 15px; }
+    a { color: var(--acento); }
+    h1 { font-size: 40px; margin: 24px 0 4px; }
+    h2 { margin-top: 0; }
+    h3 { margin-bottom: 4px; }
+    .sub { color: var(--suave); font-size: 19px; margin-top: 0; }
+    section { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 14px; padding: 24px; margin: 24px 0; }
+    footer { color: var(--suave); font-size: 14px; text-align: center; }
+    code { font-size: 15px; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="#es">Español</a><a href="#en">English</a><a href="privacidad.html">Privacidad / Privacy</a></nav>
+
+  <h1>Unir clips</h1>
+  <p class="sub">Une tres clips verticales en un solo vídeo y súbelo programado a tu canal de YouTube.<br>
+  <span lang="en">Join three vertical clips into one video and schedule it on your YouTube channel.</span></p>
+
+  <section id="es" lang="es">
+    <h2>Qué es</h2>
+    <p>Unir clips es una aplicación de escritorio para Windows, de uso personal, pensada para creadores de YouTube Shorts que publican historias en tres partes. Funciona en el propio ordenador del usuario y se usa desde el navegador.</p>
+
+    <h3>Qué hace</h3>
+    <ul>
+      <li>Une tres clips verticales de 30 segundos en un vídeo de 90 segundos con FFmpeg, sin perder calidad.</li>
+      <li>Muestra una vista previa del vídeo final antes de subirlo.</li>
+      <li>Sube el vídeo al canal de YouTube del usuario en privado, programado para publicarse a la fecha y hora que el usuario elige, con el título y la descripción que escribe y marcado como «no es para niños».</li>
+      <li>Guarda en el ordenador una lista de las historias ya subidas para no subir dos veces la misma.</li>
+      <li>De forma opcional, sugiere un título y una descripción con IA.</li>
+    </ul>
+
+    <h3>Cómo usa tu cuenta de Google</h3>
+    <p>La aplicación usa la API de datos de YouTube (YouTube Data API v3) solo después de que inicies sesión con Google y des tu permiso. Pide estos dos permisos:</p>
+    <ul>
+      <li><code>youtube.upload</code>: subir a tu canal los vídeos que tú eliges, con los datos que tú escribes.</li>
+      <li><code>youtube.readonly</code>: leer el nombre de tu canal para mostrarte a qué canal estás conectado.</li>
+    </ul>
+    <p>No lee, modifica ni borra ningún otro contenido de tu cuenta. Tus datos se quedan en tu ordenador: la aplicación no tiene servidores propios. Más detalles en la <a href="privacidad.html">política de privacidad</a>.</p>
+
+    <h3>Contacto</h3>
+    <p><a href="mailto:danelguti20@gmail.com">danelguti20@gmail.com</a></p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>What it is</h2>
+    <p>Unir clips (“Join clips”) is a personal desktop application for Windows, built for YouTube Shorts creators who publish stories in three parts. It runs on the user’s own computer and is used from the web browser.</p>
+
+    <h3>What it does</h3>
+    <ul>
+      <li>Joins three 30-second vertical clips into one 90-second video with FFmpeg, without quality loss.</li>
+      <li>Shows a preview of the final video before uploading.</li>
+      <li>Uploads the video to the user’s YouTube channel as private, scheduled to be published at the date and time the user chooses, with the title and description the user writes, and marked as “not made for kids”.</li>
+      <li>Keeps a local list of stories already uploaded so the same story is not uploaded twice.</li>
+      <li>Optionally, suggests a title and description using AI.</li>
+    </ul>
+
+    <h3>How it uses your Google account</h3>
+    <p>The app uses the YouTube Data API v3 only after you sign in with Google and grant permission. It requests these two scopes:</p>
+    <ul>
+      <li><code>youtube.upload</code>: upload to your channel the videos you choose, with the details you type.</li>
+      <li><code>youtube.readonly</code>: read your channel name to show you which channel is connected.</li>
+    </ul>
+    <p>It does not read, change or delete any other content in your account. Your data stays on your computer: the app has no servers of its own. See the <a href="privacidad.html#en">privacy policy</a> for details.</p>
+
+    <h3>Contact</h3>
+    <p><a href="mailto:danelguti20@gmail.com">danelguti20@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>Unir clips usa los Servicios de API de YouTube · Unir clips uses YouTube API Services<br>
+    <a href="https://www.youtube.com/t/terms">Términos de YouTube / YouTube Terms of Service</a> ·
+    <a href="https://policies.google.com/privacy">Política de privacidad de Google / Google Privacy Policy</a> ·
+    <a href="privacidad.html">Privacidad de Unir clips / Unir clips Privacy Policy</a></p>
+  </footer>
+</main>
+</body>
+</html>
